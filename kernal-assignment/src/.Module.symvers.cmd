@@ -1,0 +1,1 @@
+cmd_/home/ajhill1/Finished_Assignment1_wrapper/kernal-assignment/src/Module.symvers := sed 's/\.ko$$/\.o/' /home/ajhill1/Finished_Assignment1_wrapper/kernal-assignment/src/modules.order | scripts/mod/modpost -m -a  -o /home/ajhill1/Finished_Assignment1_wrapper/kernal-assignment/src/Module.symvers -e -i Module.symvers   -T -
